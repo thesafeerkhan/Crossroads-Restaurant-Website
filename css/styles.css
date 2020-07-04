@@ -95,3 +95,10 @@ body {
 #about {
 	background-color: #090814;
 }
+
+.about-text {
+	color: #f1b957;
+	position: absolute;
+	top: 50%;
+	transform: translate(0%, -50%);
+}

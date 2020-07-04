@@ -17,6 +17,21 @@ body {
 .half-screen {
 	height: 50%;
 }
+/* Order Button */
+.order-button {
+	position: fixed;
+	bottom: 10px;
+	right: 15px;
+	background: #bd2f2f;
+	color: white;
+	z-index: 1;
+	font-size: 1.5rem;
+}
+
+.order-button:hover {
+	background: #b80f0f;
+	color: white;
+}
 
 /* Header Section */
 .title {

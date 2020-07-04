@@ -9,13 +9,14 @@ h1 {
 	font-family: "Bebas Neue", cursive;
 }
 
-.title {
-	font-size: 6rem;
-}
-
 html,
 body {
 	height: 100%;
+}
+
+/* Header Section */
+.title {
+	font-size: 6rem;
 }
 
 .cover {
@@ -34,4 +35,32 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+/* Menu Section */
+#menu {
+	height: 100%;
+}
+
+.image-text {
+	background-color: #090814;
+	height: 30%;
+	width: 30%;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	color: #f1b957;
+}
+
+.custom-button {
+	border-color: #f1b957;
+	color: white;
+}
+
+.custom-button:hover {
+	background: #f1b957;
+	color: white;
 }

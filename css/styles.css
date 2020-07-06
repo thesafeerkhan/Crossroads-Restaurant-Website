@@ -9,13 +9,13 @@ h1 {
 	font-family: "Bebas Neue", cursive;
 }
 
+h2 {
+	font-family: "Dancing Script", cursive;
+}
+
 html,
 body {
 	height: 100%;
-}
-
-.half-screen {
-	height: 50%;
 }
 
 .row {
@@ -96,9 +96,36 @@ body {
 	background-color: #090814;
 }
 
-.about-text {
+.about-text1 {
 	color: #f1b957;
 	position: absolute;
 	top: 50%;
 	transform: translate(0%, -50%);
+}
+
+.about-text2 {
+	color: #f1b957;
+	position: relative;
+	/* top: 50%;
+	transform: translate(0%, -50%); */
+	display: none;
+	top: -40px;
+}
+
+/* Media Queries Smallest Screen Size*/
+@media (max-width: 767px) {
+	.about-text2 {
+	}
+
+	.chefImage {
+		height: 70%;
+	}
+
+	.about-text1 {
+		display: none;
+	}
+
+	.about-text2 {
+		display: inline;
+	}
 }

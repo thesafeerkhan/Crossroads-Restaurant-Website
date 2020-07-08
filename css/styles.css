@@ -38,6 +38,7 @@ body {
 }
 
 /* Header Section */
+
 .title {
 	font-size: 6rem;
 }
@@ -94,6 +95,12 @@ body {
 /* About Section */
 #about {
 	background-color: #090814;
+	margin-top: 1.5rem;
+}
+
+.about-text {
+	color: #f1b957;
+	text-align: center;
 }
 
 .about-text1 {

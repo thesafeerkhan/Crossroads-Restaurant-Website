@@ -68,6 +68,13 @@ body {
 	transform: translate(-50%, -50%);
 }
 
+.centered2 {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 /* Menu Section */
 .image-text {
 	background-color: #090814;
@@ -94,45 +101,20 @@ body {
 
 /* About Section */
 #about {
-	background-color: #090814;
-	margin-top: 1.5rem;
+	color: #f1b957;
 }
 
 .about-text {
-	color: #f1b957;
-	text-align: center;
+	color: white;
+	font-weight: bold;
 }
 
-.about-text1 {
-	color: #f1b957;
-	position: absolute;
-	top: 50%;
-	transform: translate(0%, -50%);
+/* Locations Section */
+#locations {
+	margin-top: 1.5rem;
+	background-color: #090814;
 }
 
-.about-text2 {
-	color: #f1b957;
-	position: relative;
-	/* top: 50%;
-	transform: translate(0%, -50%); */
-	display: none;
-	top: -40px;
-}
-
-/* Media Queries Smallest Screen Size*/
-@media (max-width: 767px) {
-	.about-text2 {
-	}
-
-	.chefImage {
-		height: 70%;
-	}
-
-	.about-text1 {
-		display: none;
-	}
-
-	.about-text2 {
-		display: inline;
-	}
+.carousel-inner {
+	background-color: #090814;
 }

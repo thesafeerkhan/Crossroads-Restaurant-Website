@@ -79,6 +79,12 @@ body {
 	transform: translate(-50%, -50%);
 }
 
+@media (max-width: 991px) {
+	.centered2 {
+		font-size: smaller;
+	}
+}
+
 /* Menu Section */
 .image-text {
 	background-color: #090814;
@@ -167,6 +173,12 @@ body {
 .map-image {
 	width: 600px;
 	height: 300px;
+}
+
+@media (max-width: 767px) {
+	.reach2 {
+		margin-top: 1.5rem;
+	}
 }
 
 /* Footer */

@@ -151,12 +151,17 @@ body {
 }
 
 .custom-button2 {
-	background: #f1b957;
+	background: #e0aa4b;
 	color: white;
 
 	position: relative;
-	left: 82%;
-	margin-top: 1.5rem;
+	float: right;
+	margin: 1.5rem 0;
+}
+
+.custom-button2:hover {
+	background: #f1bf69;
+	color: white;
 }
 
 /* Locations Section */

@@ -114,6 +114,10 @@ body {
 }
 
 /* Contact Section */
+.reach-us {
+	margin-bottom: 1.5rem;
+}
+
 #contact {
 	background-color: #090814;
 }
@@ -163,4 +167,13 @@ body {
 .map-image {
 	width: 600px;
 	height: 300px;
+}
+
+/* Footer */
+footer {
+	background-color: #c28c2e;
+}
+
+.footericon {
+	padding: 2rem;
 }

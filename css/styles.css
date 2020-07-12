@@ -25,6 +25,12 @@ body {
 .nomar {
 	margin-top: 0rem;
 }
+
+/* NavBar */
+.navbar .navbar-nav .nav-item:hover {
+	color: #f1b957;
+}
+
 /* Order Button */
 .order-button {
 	position: fixed;
@@ -187,5 +193,9 @@ footer {
 }
 
 .footericon {
-	padding: 2rem;
+	padding: 1.5rem;
+}
+
+.footericon:hover {
+	color: #090814;
 }

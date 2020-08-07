@@ -206,3 +206,28 @@ footer {
 }
 
 /* Food Menu Section */
+.header {
+	color: #f1b957;
+	font-size: 5rem;
+}
+
+.foodsection {
+	margin-bottom: 1.5rem;
+}
+
+.fooditem {
+	background-color: #090814;
+}
+
+.fooditem img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.foodpic {
+	height: 200px;
+	width: auto;
+	padding: 0%;
+	margin: 0;
+}

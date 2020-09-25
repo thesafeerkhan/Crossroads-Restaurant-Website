@@ -3,7 +3,7 @@ An responsive website design mockup for the Crossroads Bar &amp; Grill restauran
 
 You can vist the website at https://thesafeerkhan.github.io/Crossroads-Restaurant-Website/
 
-Not all website functionality currently added.
+Not all website functionality currently added. Fully Reponsive Design.
 
 <img src="https://github.com/thesafeerkhan/Crossroads-Restaurant-Website/blob/master/images/screen1.png">
 
